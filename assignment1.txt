@@ -1,0 +1,58 @@
+1.Print all reserved words in python?
+Ans:-import keyword
+      print(keyword.kwlist)
+
+2.Initilise all the student information and print their values and type
+Ans:-name="devansh gowda"
+     Rollno=118100
+     address="Kolar 563101"
+     Percentage=80.00
+     print(type(name))
+     print(type(Rollno))
+     print(type(address))
+     print(type(Percentage))
+     print(name,Rollno,address,Percentage)
+
+3.Write a program to get substring from string
+   using slice keyword
+    string="hello world"
+    print(string[5:11])
+            output:world
+4. Print first and last value of any given string
+     string="LemCode"
+     print(string[::len(string)-1])
+          output:-Le
+
+Assignment 2
+
+1.what is list and how to define the list
+   collect of different data elements
+    varname=[]
+   
+     x="Helloworld"
+
+2.get first 3 letters from from x
+   x="helloworld"
+   print(x[:-7])
+      o/p:- hel
+
+3.get last 3 letters from from x
+  x="helloworld"
+   print(x[7:])
+         o/p:-rld
+
+4.remove last 3 letters from from x
+    x="helloworld"
+     print(x[:len(x)-3])
+           o/p:-hellowo
+
+5.get only the last ele from x
+    x="helloworld"
+    print(x[len(x)-1])
+    o/p:-d
+
+6.get only "ll" from x
+           x="helloworld"
+    print(x[len(x) -8] ,x[len(x) -7] )
+                o/p:-ll
+    

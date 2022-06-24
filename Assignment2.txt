@@ -1,0 +1,75 @@
+1.what is difference b/w list and tuple and write there syntax how to define
+    List:- Collection of heterogeneous data elements ,here we can change data elements because list is mutable
+    Tuple:- same as list but here we can't change data elements because tuple is immutable
+      Syntax:- varname=list[]
+               varname=tuple()
+
+2.convert integer to all types
+   we can convert int to float , boolean and string if it's contains numaric values we cant convert alphanumareic.
+    int to complex not possible 
+       x=100
+       print(type(x))
+       print(int(x))
+       print(float(x))
+       print(bool(x))
+       print(str(x))
+                       output:-<class 'int'>
+                                100
+                                100.0
+                                True
+                                100
+
+
+3. x=[1,2,3,4,4,5] -> o/p -> [100,2,3,100,4,5]
+              x= [1,2,3,4,4,5]
+              print(x)
+              x[0]=100
+              x[3]=100
+              print(x)
+
+4.Find the len of string x="HELLLO WORDLD"
+            x="HELLLO WORDLD"
+            print(len(x))
+        output:-13
+
+5. how can we change the tuple values
+   we can change by using list 
+      EX:-x= (1,2,3,4,4,5)
+          print(x)
+          X=list(x)
+          print(x)
+          X[0]=100
+          X[3]=100
+          print(X)
+6.what is the range of bytearray
+      Range is 0 - 255
+
+7.x="10.30" can we change this to float ?
+    we can't cahnge since str contains float 
+
+9.add two numbers with out using + operator
+     a=10
+     b=-20
+     c=a-b
+      print(c)
+
+10.generate 1-10 numbers using range and print numbers
+    x=range(10)
+   print(x)
+   for i in x:
+    print(i,end="   ")
+
+
+11. write syntax of range and slicing
+      syntax=Range(startindex,endindex,stepping)
+      slicing syntx=slice[startindex,endindex,stepping]
+
+ 
+12.x="HELLO PYTHON" o/p-> LLO P  write in dynamic way
+             x="HELLO PYTHON"
+             print(x[2:len(x)-7])
+    
+  
+
+                          
+            

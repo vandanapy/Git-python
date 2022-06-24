@@ -1,0 +1,5 @@
+compiler will execute whole program
+
+interpreter will execute line by line
+since it's execute line by line python is very slow
+if we get error in first line it will stop there only
