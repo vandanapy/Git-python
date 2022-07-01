@@ -1,3 +1,6 @@
+
+
+
 # # # ass1 remove the duplicate ele in the list without using set and by using set
 x=[1,2,3,4,1,2,5,6]
 # # x=set(x)  ==>using set
