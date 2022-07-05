@@ -17,10 +17,16 @@
 # # 3)Print the Words Ending with Letter 'A'
 # #     ex :x=Hello Rama NagA is Good RA   # o/p : NagA RA
 # x='Hello Rama NagA is Good RA'
-# # for i in x:
-# #     for s in i.split():
-# #         if s.endswith(('A')):
-# #             print(s)
+
+# x='Hello Rama NagA is Good RA'
+# out=[]
+# s=x.split()
+# for i in s:
+#     if i.endswith(('A')):
+#         out.append(i)
+# print(out)
+# y=" ".join(out)
+# print(y)
 # #
 # #
 # # x="Amma is"
